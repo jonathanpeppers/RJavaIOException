@@ -16,6 +16,13 @@ class Program
 			var dir = Path.GetFileName(Path.GetDirectoryName(file));
 			if (dir == "bin" || dir == "manifest" || dir == "Properties")
 			{
+				Console.WriteLine($"skipping due to {dir}");
+				continue;
+			}
+			var res = Path.Combine(Path.GetDirectoryName(file), "res");
+			if (!Directory.Exists(res))
+			{
+				Console.WriteLine($"skipping due to no exist {res}");
 				continue;
 			}
 			var xml = XDocument.Load(file);
