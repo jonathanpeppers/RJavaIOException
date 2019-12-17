@@ -5,10 +5,10 @@ using System.Xml.Linq;
 
 class Program
 {
-	static void Main()
+	static void Main(string[] args)
 	{
 		var path = Path.GetDirectoryName(typeof(Program).Assembly.Location);
-		var folder = Path.Combine(path, "..", "..", "..", "..", "RJavaIOException.Android");
+		var folder = args.Length == 0 ? Path.Combine(path, "..", "..", "..", "..", "RJavaIOException.Android") : args[0];
 
 		var packages = new List<string>();
 		foreach (var file in Directory.EnumerateFiles(Path.GetFullPath(folder), "AndroidManifest.xml", SearchOption.AllDirectories))
