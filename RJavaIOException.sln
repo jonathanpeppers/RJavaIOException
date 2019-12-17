@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJavaIOException.Android", "RJavaIOException.Android\RJavaIOException.Android.csproj", "{AE60B8B4-C631-401B-A9D1-9E0959810C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJavaIOException", "RJavaIOException\RJavaIOException.csproj", "{CFD811B1-D313-4AF0-B35C-EB2FA8C4324B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJavaIOException", "RJavaIOException\RJavaIOException.csproj", "{CFD811B1-D313-4AF0-B35C-EB2FA8C4324B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetParser", "NuGetParser\NuGetParser.csproj", "{FABE3287-F596-47C9-A4FA-8E451B424655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{CFD811B1-D313-4AF0-B35C-EB2FA8C4324B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD811B1-D313-4AF0-B35C-EB2FA8C4324B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFD811B1-D313-4AF0-B35C-EB2FA8C4324B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FABE3287-F596-47C9-A4FA-8E451B424655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABE3287-F596-47C9-A4FA-8E451B424655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABE3287-F596-47C9-A4FA-8E451B424655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABE3287-F596-47C9-A4FA-8E451B424655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
